@@ -1,0 +1,25 @@
+# Ignore all .pyc files
+*.pyc
+
+# Ignore __pycache__ folders
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+*.h5
+*.pth
+
+# Ignore  folders
+data/
+OG_PROJECT_FILES/
+1_Cleaning_datasets/
+
+# Ignore Streamlit upload folders or temp files
+.streamlit/
+
+# Ignore secrets or keys
+secrets.txt
+.env
+final_merged_df.csv
