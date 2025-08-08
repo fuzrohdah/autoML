@@ -1,4 +1,4 @@
-# AutoML App (Advanced Edition)
+# AutoML App
 
 **AutoML** is a no-code Streamlit web app for end-to-end statistical machine learning. Upload any CSV dataset, perform preprocessing, select features, train models, view performance metrics, and download the trained model — all in a simple, interactive UI.
 
@@ -7,9 +7,8 @@
 - File upload and dataset preview  
 - Missing value imputation  
 - Encoding and feature scaling  
-- Model selection: Logistic Regression, Random Forest, XGBoost, etc.  
+- Model selection: Logistic Regression, Random Forest, XGBoost, DT etc.  
 - Performance metrics, confusion matrix, ROC curve  
-- SHAP-based model explainability  
 - Cross-validation (5-fold)  
 - Export trained model as `.pkl`
 
@@ -29,6 +28,6 @@
 
 ```bash
 pip install -r requirements.txt
-streamlit run ultimate_automl_app_advanced.py
+streamlit run ultimate_automl_app_.py
 
 
